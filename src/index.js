@@ -1,3 +1,4 @@
+require('es6-promise').polyfill();
 import React, {PropTypes} from 'react';
 import ReactDOM from 'react-dom';
 import Chart from 'chart.js';
@@ -98,7 +99,8 @@ class ChartComponent extends React.Component {
 
     this.shadowDataProp = {
       ...data,
-      datasets: data.datasets && data.datasets.map(set => Object.assign({}, set))
+      datasets: data.datasets && data.datasets.map(set => JSON.parse(JSON.stringify(set)))
+      //datasets: data.datasets && data.datasets.map(set => Object.assign({}, set))
     };
   }
 
