@@ -1,5 +1,5 @@
 import React from 'react';
-import {Polar} from 'react-chartjs-2';
+import {Polar} from 'react-chartjs-2-ie-fix';
 
 const data = {
   datasets: [{

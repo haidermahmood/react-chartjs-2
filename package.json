@@ -1,16 +1,17 @@
 {
-  "name": "react-chartjs-2",
+  "name": "react-chartjs-2-ie-fix",
   "version": "2.0.0",
-  "description": "react-chartjs-2",
+  "description": "This is fork repo(https://github.com/gor181/react-chartjs-2) of react-chartjs-2 written by Goran Udosic @gor181 at github. Purpose was to fix code for existing ES6 Object.assign method which does not have polyfill for IE.",
   "main": "lib/index.js",
-  "author": "Goran Udosic",
-  "homepage": "https://github.com/gor181/react-chartjs-2",
+  "author": "Haider Mahmood",
+  "user": "haidermahmood",
+  "homepage": "https://github.com/haidermahmood/react-chartjs-2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gor181/react-chartjs-2.git"
+    "url": "https://github.com/haidermahmood/react-chartjs-2.git"
   },
   "bugs": {
-    "url": "https://github.com/gor181/react-chartjs-2/issues"
+    "url": "https://github.com/haidermahmood/react-chartjs-2/issues"
   },
   "dependencies": {
     "es6-promise": "^4.0.5",

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Bubble} from 'react-chartjs-2';
+import {Bubble} from 'react-chartjs-2-ie-fix';
 
 const data = {
   labels: ['January'],

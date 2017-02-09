@@ -5,6 +5,11 @@
 
 # react-chartjs-2
 
+FORK of original react-chartjs-2 written by Goran Udosic @gor181(https://github.com/gor181) at github. 
+Purpose was to fix ES6  object.assign methods which does not have polyfill for IE. So, I replaced with older
+Javascript code for merge/copy object.
+=====
+
 React wrapper for [Chart.js 2](http://www.chartjs.org/docs/#getting-started)
 Open for PR's and contributions!
 

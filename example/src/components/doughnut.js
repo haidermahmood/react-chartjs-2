@@ -1,5 +1,5 @@
 import React from 'react';
-import {Doughnut} from 'react-chartjs-2';
+import {Doughnut} from 'react-chartjs-2-ie-fix';
 
 const data = {
 	labels: [
