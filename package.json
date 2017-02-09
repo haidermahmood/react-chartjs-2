@@ -1,6 +1,6 @@
 {
   "name": "react-chartjs-2-ie-fix",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "This is fork repo(https://github.com/gor181/react-chartjs-2) of react-chartjs-2 written by Goran Udosic @gor181 at github. Purpose was to fix code for existing ES6 Object.assign method which does not have polyfill for IE.",
   "main": "lib/index.js",
   "author": "Haider Mahmood",
@@ -53,7 +53,7 @@
     "chart.js": "global:Chart"
   },
   "scripts": {
-    "build": "gulp clean && NODE_ENV=production gulp build",
+    "build": "gulp clean && SET NODE_ENV=production && gulp build",
     "examples": "gulp dev:server",
     "lint": "eslint ./; true",
     "publish:site": "NODE_ENV=production gulp publish:examples",
